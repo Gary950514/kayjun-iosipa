@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <!-- 1. 填入你的 .ipa 檔案 HTTPS 直鏈網址 -->
+                    <string>https://gary950514.github.io/kayjun-iosipa/</string>
+                </dict>
+                <!-- 如果有需要，可以加入 App 圖示，非必填 -->
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://yourdomain.com</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <!-- 2. 填入你 App 的 Bundle ID（例如：com.example.myapp） -->
+                <string>https://kj.infinityfree.me/</string>
+                <key>bundle-version</key>
+                <!-- 3. 填入 App 的版本號（例如：1.0.0） -->
+                <string>1.1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <!-- 4. 填入安裝時彈出視窗顯示的 App 名稱 -->
+                <string>KJ畢業學分進度</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
